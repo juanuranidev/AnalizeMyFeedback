@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0rem;
+  min-height: 100vh;
+  background-color: #0e76a8;
+  font-family: "Roboto", sans-serif;
+}
+
+.main_h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.main_p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-size: 300;
+  color: #ffffff;
+}
+
+.main_div {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 2.5rem;
+}
+
+.main_div_textarea {
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  width: 24rem;
+  height: 4rem;
+}
+
+.main_div_button {
+  background-color: #0e76a8;
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.main_feedback_analysis {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 80%;
+  margin-bottom: 2.5rem;
+}
+
+.main_feedback_analysis_feedback {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.main_feedback_analysis_feedbackAnalysis {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.main_img {
+  width: 2rem;
+  animation: fadeinout 2s infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes fadeinout {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.main_feedback_analysis_answer {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main_feedback_answer {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 80%;
+}
+
+.main_feedback_answer_feedbackResponse {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.main_feedback_answer_copy {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
